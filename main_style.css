@@ -1,0 +1,123 @@
+
+/* :root { 
+font-size : 10px */
+html {
+    font-size: 62.5%; /* 62.5% de 16px (el tamaño por defecto) es igual a 10px */
+  }
+
+
+body{
+    background-color:rgb(3, 10, 36);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    gap: 1rem;
+
+
+}
+
+
+header{
+
+  row-gap: 10px;
+}
+
+
+
+nav{
+  position:sticky;
+  background-color: black;
+  display: flex;
+  top: 0;
+
+}
+
+nav ul {
+    list-style-type: none; /* Eliminar el estilo de lista por defecto (puntos) */
+    padding: 0; /* Eliminar el padding predeterminado */
+    margin: 0; /* Eliminar el margen predeterminado */
+
+  }
+
+nav ul li {
+    display: inline-block; /* Hacer que los elementos de la lista se muestren en línea */
+    margin-right: 5rem; /* Agregar un margen entre los elementos de la lista */
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+nav ul li a {
+    text-decoration: none; /* Eliminar el subrayado de los enlaces */
+    color: whitesmoke; /* Color del texto del enlace */
+    font-size: 3.5rem;
+  }
+
+#Marca_Logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+}
+
+#Logo_principal img{
+  max-width: 100%;
+  display: block;
+
+}
+
+.Nombre_Slogan{
+  display: inline;
+
+}
+
+#Mayab_Sma{
+    color:rgba(207, 178, 12, 0.473);
+    font-size: 8rem;
+    display: inline-block;
+    margin-left: 10rem;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 1rem;
+    margin-left: 6rem;
+}
+
+#Slogan{
+    color:rgba(207, 178, 12, 0.473);
+    display: block;
+    margin-left: 10rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4.5rem ;
+    margin-top: 1rem;
+
+}
+
+
+.body_content{
+  flex : 1;
+  padding: 1rem;
+}
+
+p{
+    font-size: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align: center;
+
+}
+
+footer{
+  display: flex;
+  background-color: black;
+  position:static;
+  align-items: baseline;
+  justify-content: space-around;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+
+}
+

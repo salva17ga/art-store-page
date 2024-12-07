@@ -1,0 +1,123 @@
+
+html {
+    font-size: 62.5%; /* 62.5% de 16px (el tamaño por defecto) es igual a 10px */
+  }
+
+
+body{
+    background-color:rgb(3, 10, 36);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column; 
+    margin: 0;
+    gap: 3rem;
+
+
+}
+
+
+header{
+
+  row-gap: 10px; 
+}
+
+
+
+nav{ 
+  position:sticky; 
+  background-color: black;  
+  display: flex;
+  top: 0;
+
+}
+
+nav ul {
+    list-style-type: none; /* Eliminar el estilo de lista por defecto (puntos) */
+    padding: 0; /* Eliminar el padding predeterminado */
+    margin: 0; /* Eliminar el margen predeterminado */
+
+  }
+  
+nav ul li {
+    display: inline-block; /* Hacer que los elementos de la lista se muestren en línea */
+    margin-right: 5rem; /* Agregar un margen entre los elementos de la lista */
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+  
+nav ul li a {
+    text-decoration: none; /* Eliminar el subrayado de los enlaces */
+    color: whitesmoke; /* Color del texto del enlace */
+    font-size: 3.5rem;
+  }
+
+.Titulo_galeria{
+  display: inline;
+  text-align: center;
+  font-size: 8rem;
+  font-family: 'Dancing Script', cursive;
+  color:rgba(207, 178, 12, 0.473);
+
+}
+
+/* .Grid_container{
+    flex : 1; 
+    padding: 8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 2rem; 
+    align-items: center;
+  }
+
+.Grid_item img {
+  height:auto; 
+  width:100%; 
+
+} */
+
+
+.custom-carousel {
+  max-width: 50rem; /* Ancho máximo */
+  max-height: 50rem; /* Alto máximo */
+  margin: 0 auto; /* Centrado horizontal */
+}
+
+.custom-carousel img {
+  height: auto; /* Ajusta la altura de las imágenes */
+  object-fit: cover; /* Mantén proporción de la imagen */
+}
+
+p{
+      font-size: 2rem;
+      margin-left: 5rem;
+      margin-right: 5rem;
+      text-align: center;
+  
+  }
+  
+#auxiliar-carrusel-footer{
+  display: flex;
+  flex-direction: column;
+  gap: 20rem;
+
+
+}
+
+
+footer{
+    display: flex;
+    background-color: black;
+    position:relative;
+    align-items: baseline;
+    justify-content: space-around;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    color: whitesmoke;
+  
+  }
+  
